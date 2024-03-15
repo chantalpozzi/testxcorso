@@ -1,0 +1,114 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://chantalpozzi.github.io/testxcorso/manifests/TESTIIIFMANIFEST.json",
+  "@type" : "sc:Manifest",
+  "label" : "Bodleian Library MS. C17:48 (9), Sheet 8",
+  "description" : "[Map of Laxton: land south-east of Kneesall village ]",
+  "metadata" : [ {
+    "label" : "Homepage",
+    "value" : "<span><a href=\"https://digital.bodleian.ox.ac.uk/objects/9c37322c-24e9-4cbc-94f5-b38c072619de/\">View on Digital Bodleian</a></span>"
+  }, {
+    "label" : "Title",
+    "value" : "[Map of Laxton: land south-east of Kneesall village ]"
+  }, {
+    "label" : "Shelfmark",
+    "value" : "Bodleian Library MS. C17:48 (9), Sheet 8"
+  }, {
+    "label" : "Contributor",
+    "value" : "Pierce, Mark, fl.1600-1635"
+  }, {
+    "label" : "Language",
+    "value" : "English"
+  }, {
+    "label" : "Date Statement",
+    "value" : "1635"
+  }, {
+    "label" : "Description",
+    "value" : "Detail of enclosure 1991, with sheep and cattle"
+  }, {
+    "label" : "Extent",
+    "value" : "35mm slide"
+  }, {
+    "label" : "Collection",
+    "value" : "Maps and Atlases"
+  }, {
+    "label" : "Collection",
+    "value" : "Images from 35mm Slides and Filmstrips"
+  }, {
+    "label" : "Subject",
+    "value" : "Nottinghamshire (England) Maps Early works to 1800"
+  }, {
+    "label" : "Subject",
+    "value" : "Laxton (Nottinghamshire, England)"
+  }, {
+    "label" : "Other Identifier",
+    "value" : "MS. C17:48 (9), Sheet 8"
+  }, {
+    "label" : "Other Identifier",
+    "value" : "Filmstrip Roll 248.7, frame 13"
+  }, {
+    "label" : "Record Created",
+    "value" : "2015-07-10T00:00:00Z"
+  }, {
+    "label" : "Holding Institution",
+    "value" : "Bodleian Libraries, University of Oxford"
+  } ],
+  "navDate" : "1635-01-01T00:00:00Z",
+  "rendering" : {
+    "@id" : "https://digital.bodleian.ox.ac.uk/objects/9c37322c-24e9-4cbc-94f5-b38c072619de/",
+    "label" : "View on Digital Bodleian",
+    "format" : "text/html"
+  },
+  "attribution" : "http://creativecommons.org/licenses/by-nc-sa/3.0/",
+  "logo" : {
+    "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71/full/256,/0/default.jpg",
+    "@type" : "dctypes:Image",
+    "format" : "image/jpeg",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "profile" : "http://iiif.io/api/image/2/level1.json",
+      "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/f27e28db-0b08-4f16-9bdf-3565f591fb71"
+    }
+  },
+  "thumbnail" : {
+    "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/9c37322c-24e9-4cbc-94f5-b38c072619de/full/256,/0/default.jpg",
+    "@type" : "dctypes:Image",
+    "format" : "image/jpeg",
+    "service" : {
+      "@context" : "http://iiif.io/api/image/2/context.json",
+      "profile" : "http://iiif.io/api/image/2/level1.json",
+      "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/9c37322c-24e9-4cbc-94f5-b38c072619de"
+    }
+  },
+  "viewingHint" : "individuals",
+  "sequences" : [ {
+    "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/sequence/9c37322c-24e9-4cbc-94f5-b38c072619de_default.json",
+    "@type" : "sc:Sequence",
+    "label" : "Default",
+    "canvases" : [ {
+      "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9c37322c-24e9-4cbc-94f5-b38c072619de.json",
+      "@type" : "sc:Canvas",
+      "label" : "Image 1",
+      "width" : 1818,
+      "height" : 1228,
+      "images" : [ {
+        "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/annotation/9c37322c-24e9-4cbc-94f5-b38c072619de.json",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "on" : "https://iiif.bodleian.ox.ac.uk/iiif/canvas/9c37322c-24e9-4cbc-94f5-b38c072619de.json",
+        "resource" : {
+          "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/9c37322c-24e9-4cbc-94f5-b38c072619de",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "width" : 1818,
+          "height" : 1228,
+          "service" : {
+            "@id" : "https://iiif.bodleian.ox.ac.uk/iiif/image/9c37322c-24e9-4cbc-94f5-b38c072619de",
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "profile" : "http://iiif.io/api/image/2/level1.json"
+          }
+        }
+      } ]
+    } ]
+  } ]
+}
