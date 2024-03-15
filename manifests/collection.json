@@ -1,0 +1,13 @@
+{
+  "id" : "https://chantalpozzi.github.io/testxcorso/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in chantalpozzi/testxcorso project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://chantalpozzi.github.io/testxcorso/manifests/TESTIIIFMANIFEST.json",
+    "label" : "Bodleian Library MS. C17:48 (9), Sheet 8"
+  } ]
+}
